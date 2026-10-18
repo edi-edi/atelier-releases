@@ -36,7 +36,7 @@ main() {
   work="$(mktemp -d)"
   trap cleanup EXIT
 
-  say "Downloading $APP_NAME…"
+  say "Downloading ${APP_NAME}…"
   curl -fL --progress-bar "$DMG_URL" -o "$work/$APP_NAME.dmg"
 
   mount="$work/volume"
@@ -55,7 +55,7 @@ main() {
   fi
 
   if pgrep -xq -U "$(id -u)" "$APP_NAME"; then
-    say "Quitting the running copy of $APP_NAME…"
+    say "Quitting the running copy of ${APP_NAME}…"
     osascript -e "tell application \"$APP_NAME\" to quit" >/dev/null 2>&1 || true
     local waited=0
     while pgrep -xq -U "$(id -u)" "$APP_NAME" && (( waited < 20 )); do sleep 1; waited=$((waited + 1)); done
@@ -66,7 +66,7 @@ main() {
 
   [[ -w /Applications ]] || fail "Your user account can't write to /Applications. Log in as an administrator and run this again."
 
-  say "Installing to $DESTINATION…"
+  say "Installing to ${DESTINATION}…"
   local staging="/Applications/.$APP_NAME-install.app"
   rm -rf "$staging"
   ditto "$app" "$staging"
