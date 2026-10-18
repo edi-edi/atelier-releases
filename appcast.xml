@@ -6,6 +6,20 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.2</title>
+      <pubDate>Sun, 18 Oct 2026 19:00:37 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Security</h4>
+<ul>
+<li>Atelier checks that it is still signed with the certificate it was published with, at launch and again shortly after. A copy that was modified to skip activation and then re-signed won't open.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.1.2/Atelier-0.1.2.dmg" type="application/octet-stream" sparkle:edSignature="OteyapLR/BJ1cEp5fOPFg/xUxoiHN0cOmTmbSkwkvJJ2MAU9dC3PpuwfWc7vU+0A7JdotixNXlmq9ZxU7BfRCw==" length="3368859"/>
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <pubDate>Sun, 18 Oct 2026 18:32:07 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
