@@ -6,6 +6,33 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.0</title>
+      <pubDate>Sun, 18 Oct 2026 23:16:28 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Semester setup.</strong> File ▸ Set Up Semester… lists the courses of the UB-AF bachelor programme (OAS Arhitektura) for the semester and year of study you pick, with their codes, ESPB, colors and symbols. Tick the ones you're taking and they're all added at once; for the elective (Izborni predmet – Održivost) you choose one. It can also archive the courses you passed in earlier semesters, while courses not passed yet stay so their exams can still be planned. The welcome screen starts here, and the dashboard offers it when a new semester begins.</li>
+<li>The Dock icon shows how many deadlines are overdue or due today. Settings ▸ General turns it off.</li>
+<li>Atelier reopens where you left off: the last section or course, and the course tab.</li>
+<li>Edit ▸ Search (⌘F) jumps to the search field in Assignments, Projects, Notes and Files, and Go ▸ Back (⌘[) returns from a project.</li>
+<li><strong>Repeating assignments.</strong> An assignment with a due date can repeat every week or every two weeks. Mark it done and the next one appears with the same course, type, priority and reminder, until the date you choose or the end of the semester's teaching.</li>
+<li><strong>Quick Add.</strong> Press ⌃⌥A in any app (or File ▸ Quick Add…, or the menu bar) and type an assignment in one line, in Serbian or English: “Maketa do petka u 14h”, “Esej za dve nedelje”, “Kolokvijum 4.11. u 12h #OA117”, “Reading next tue 9:00”. The date, the course (from #code or #name) and the type are filled in as you type; Return adds it with your default reminder.</li>
+<li><strong>Search everything.</strong> Go ▸ Search Atelier… (⌘K) finds courses, assignments, projects, notes (by their text too) and files (by name and tag), ignoring case and diacritics. Spotlight finds courses, open assignments, projects and notes as well, and opens them in Atelier; Settings ▸ General turns that off.</li>
+<li><strong>Print and PDF.</strong> File ▸ Print… (⌘P) and Export as PDF… (⌥⌘P) for the weekly timetable (one landscape page, colored by course), your grades (per semester, with ECTS and the average) and notes: the selected note, or all of a course's notes from its page.</li>
+<li><strong>Photos from your iPhone.</strong> The camera button in Files and on a project's files takes a photo, scans a document or adds a sketch with a nearby iPhone or iPad (Continuity Camera). It's saved into the course's or project's linked Finder folder, or into a folder you choose once, and appears with the other files.</li>
+<li><strong>Faster timetable.</strong> A new class can be added on several days at once (Also on), and any class can be copied to another day from its right-click menu.</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li>The sidebar is shorter: Assignments is now a view inside Deadlines (Agenda or Assignments at the top), and Exams and Grades share one section, Exams &amp; Grades. The ⌘1… shortcuts follow the new order.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.7.0/Atelier-0.7.0.dmg" type="application/octet-stream" sparkle:edSignature="BHbXTfthUUPdjxB9X6sPu7SWKxCPKUvFfrmmWMTStJHLvLBu7UMXGXEwP8sFjlXLVDCnyJvf3fdbTdUo2jZyCw==" length="5725858"/>
+    </item>
+    <item>
       <title>Version 0.6.0</title>
       <pubDate>Sun, 18 Oct 2026 22:13:51 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
