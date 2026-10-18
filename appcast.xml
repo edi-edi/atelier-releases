@@ -6,6 +6,24 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.1</title>
+      <pubDate>Sun, 18 Oct 2026 18:32:07 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Help ▸ Send Feedback…</strong> (also in Settings ▸ General) opens a short form to report a problem, suggest an idea or ask a question, with room for screenshots. The app version, macOS version and the screen you were on are filled in for you; your courses, grades and notes are never sent.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>The Terminal installer stopped at its first step with "unbound variable" on macOS's built-in bash.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.1.1/Atelier-0.1.1.dmg" type="application/octet-stream" sparkle:edSignature="XTEmP/EprQsp9NJv+4ZUwtgDWIZHBV0lwuYWV2/2lIJOBKJEPuHC3/ym+/kPB51w4kgWisgqHp65dG1hVfCJCw==" length="3350441"/>
+    </item>
+    <item>
       <title>Version 0.1.0</title>
       <pubDate>Sun, 18 Oct 2026 18:15:21 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
