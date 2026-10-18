@@ -6,6 +6,31 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.0</title>
+      <pubDate>Sun, 18 Oct 2026 19:49:19 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Backups</strong> (Settings ▸ Backups): once a day, if anything changed, Atelier saves a copy of your data to a folder you choose, such as one in iCloud Drive, and keeps the newest 14. Restoring a backup first saves a copy of your current data, then reopens Atelier with the restored data. The dashboard says when changes haven't been backed up for a week, and the "couldn't open its data" screen can restore a backup too.</li>
+<li>A course's overview shows its points and grade, and the Grades overview shows the grade your points already reach before the final grade is entered.</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li>Each grade item has a remove button and an exam button, instead of options hidden in a right-click menu.</li>
+<li>Points save as you type and accept a decimal comma ("12,5") as well as a point.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>Settings ▸ Backups ▸ Choose… didn't open the folder picker.</li>
+<li>In Serbian, the titles of the New and Edit sheets (New Course, Edit Project…), the Start and Final review dates, and one file error message were still in English.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.2.0/Atelier-0.2.0.dmg" type="application/octet-stream" sparkle:edSignature="fIBqE4V9oVGtMQiouq/Si7ldg5Z0tTvytFt7UYb4jddN0sfUWSEt1sJXlppu5/VQj2GMgaz2t3thdRuz0yidAQ==" length="3554080"/>
+    </item>
+    <item>
       <title>Version 0.1.2</title>
       <pubDate>Sun, 18 Oct 2026 19:00:37 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
