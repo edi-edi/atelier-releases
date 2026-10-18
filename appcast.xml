@@ -6,6 +6,31 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.0</title>
+      <pubDate>Sun, 18 Oct 2026 22:13:51 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Greetings with an opinion.</strong> The dashboard greets you with a short, dry line about the day instead of a plain "Good morning": deadlines due today or this week, overdue work, classes left (or none at all), a kolokvijum or exam in the next few days, a grade you just entered, late nights, Mondays and Fridays, the exam period, holidays, and the start and end of the semester. In English or Serbian, following the app's language, and never the same line twice in a row. Settings ▸ General ▸ Funny greetings on the dashboard turns them off.</li>
+<li><strong>Open at login.</strong> Settings ▸ General ▸ Open Atelier at login, with the login item's real status, including when it still needs approval in System Settings.</li>
+<li><strong>Menu bar icon.</strong> Today's remaining classes and the next deadlines, one click from the menu bar, with Open Atelier, Settings… and Quit Atelier. Choosing a class opens its course, and a deadline opens Deadlines. Settings ▸ General ▸ Show Atelier in the menu bar hides it.</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li>Atelier now remembers when points and exam results are entered, so the greeting can react to a fresh grade. Existing data is upgraded automatically; grades entered before this version have no date.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>A course's ECTS credits are typed like any other field (select, delete and replace digits) and line up with the rest of the course form; an empty field means 0 and numbers above 30 become 30.</li>
+<li>Add Exams lists every course that isn't archived: courses not passed yet first, then passed courses (to retake an exam for a better grade), then the courses already in the period, shown ticked.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.6.0/Atelier-0.6.0.dmg" type="application/octet-stream" sparkle:edSignature="DLMDE33U+xu6KVMTJETQ066YlNKWjlfb5rcw73FaPTabeskIVaIVS46Ijbe9Dn6pYLISzgb1XkevGBxNMNtNDQ==" length="5080318"/>
+    </item>
+    <item>
       <title>Version 0.5.0</title>
       <pubDate>Sun, 18 Oct 2026 21:39:44 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
