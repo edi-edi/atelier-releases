@@ -6,6 +6,31 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.5.0</title>
+      <pubDate>Sun, 18 Oct 2026 21:39:44 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Fixed</h4>
+<ul>
+<li>Milestones can be deleted again: point at one and click the − button, or right-click it. The same button removes grade items.</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li><strong>Undo for deletions.</strong> Edit ▸ Undo (⌘Z) brings back a deleted assignment, note, file, class, milestone, grade item or exam, with its links to courses and projects. Deleting a single assignment, note or file no longer asks first; deleting a course, a project, an exam period or several assignments still asks, and can't be undone. Text fields keep their own undo while you type.</li>
+<li>Edit sheets for assignments, notes, classes, exams and exam periods have a Delete button, and the Delete key removes the selected files or asks to delete the selected course.</li>
+<li>Rows and cards highlight when you point at them, and more of them have a right-click menu (dashboard, course, project and grades pages). Archiving, pinning, deleting and the Show Completed and Show Archived filters animate.</li>
+<li>A file tile is selected on the first click, without waiting to see whether it's a double click.</li>
+<li>Double-click an empty part of a day in the timetable to add a class at that time.</li>
+<li>In "New …" sheets, Cancel sits next to Add. The Deadlines filter is a menu, exam rows use a smaller status menu, and a new milestone's date is picked from a calendar button.</li>
+<li>The Grades page keeps its three tiles in one row, and the Grades and Timetable pages show only their welcome message until there's something to show. Course tiles and project cards fill the width of the window.</li>
+<li>The Scale Converter updates while you type and accepts a decimal comma (1,5).</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.5.0/Atelier-0.5.0.dmg" type="application/octet-stream" sparkle:edSignature="qwfu6N70EO+M1XrJhRcgjrePuZYvhhtOk18euUVblElGfLhvGQ7SdX4EFlmLUcc6IkShQldsKjzqcfvPKMzVAA==" length="4716518"/>
+    </item>
+    <item>
       <title>Version 0.4.0</title>
       <pubDate>Sun, 18 Oct 2026 20:17:38 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
