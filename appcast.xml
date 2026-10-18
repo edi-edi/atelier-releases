@@ -6,6 +6,26 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0</title>
+      <pubDate>Sun, 18 Oct 2026 19:57:39 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Organizing files.</strong> Each file is recognized as a drawing, 3D model, image or render, PDF or document. The Files view filters by kind, status and tag, sorts by date added, date modified, name or kind, groups by kind, course or project, or status, and shows a grid or a list.</li>
+<li>Select several files with ⌘-click, ⇧-click or ⌘A, press Space for Quick Look, and set their status (draft, final, submitted) or kind, add or remove tags, move them to another course or project, or remove them from Atelier, all at once. Get Info renames a file in Atelier and shows where it is, when it changed and how big it is.</li>
+<li><strong>Linked folders.</strong> A course or project can link a folder in Finder. Its files appear in Atelier, and files saved there later (an export from Rhino or ArchiCAD, say) appear as soon as you switch back to Atelier. Renamed files keep their tags, and a file removed from Atelier stays removed.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>In Serbian, the menus macOS adds (Edit, View, Window, Copy, Paste, Hide, Quit, Settings… and a text field's right-click menu) were in English. They are now translated too, as are "Never" under Settings ▸ Updates and the confirm buttons of the backup folder pickers.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.3.0/Atelier-0.3.0.dmg" type="application/octet-stream" sparkle:edSignature="K4xGzwDMFH2xal2sKjTy2qq3bJKTz8XYjG9e8XvgMD59m9z9ZzOufIYdE5Whd7fUibcmK2n6PWJlQWOCQKt5AQ==" length="4124221"/>
+    </item>
+    <item>
       <title>Version 0.2.0</title>
       <pubDate>Sun, 18 Oct 2026 19:49:19 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
