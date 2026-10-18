@@ -6,6 +6,26 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0</title>
+      <pubDate>Sun, 18 Oct 2026 20:17:38 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Exams.</strong> Add the exam periods (ispitni rokovi) you need, starting from typical dates for January, February, April, June, July, September or October, and choose which exams you'll take in each. Each period shows when registration opens and closes and how many exams aren't registered yet, with Mark All as Registered.</li>
+<li>Reminders when registration opens, two days before it closes and on its last day, and before each exam (using the default reminder in Settings). Exam days and the end of registration appear in Deadlines, Up Next and the "Atelier" calendar, and exam periods show in the calendar as all-day spans.</li>
+<li>An exam's date, room, points and grade can be entered. A passed exam's grade becomes the course's final grade and its points go into the course's exam. Each course's Grades tab lists its exams, and the dashboard shows the coming exam period from three weeks before registration opens.</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li>The dashboard, course, project and grades pages lay out their cards in two balanced columns that fill the window, or one column on narrow windows, with no gaps beside short cards. Empty cards take less room, and the dashboard's tiles show classes today instead of the number of courses.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.4.0/Atelier-0.4.0.dmg" type="application/octet-stream" sparkle:edSignature="/q2LYVW+ld6PyWs0Zr5koRFC+fmZAUPMxo/J9kIDCR8T8zmQqmEb3muZYU+Wb3PngGspWYw8/KZ+6ZaPE934AA==" length="4571782"/>
+    </item>
+    <item>
       <title>Version 0.3.0</title>
       <pubDate>Sun, 18 Oct 2026 19:57:39 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
