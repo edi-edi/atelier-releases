@@ -5,5 +5,37 @@
     <link>https://edi-edi.github.io/atelier-releases/appcast.xml</link>
     <description>Updates for Atelier</description>
     <language>en</language>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Sun, 18 Oct 2026 18:15:21 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Dashboard</strong> with greeting, current semester and teaching week, counts of what is due this week and overdue, an "Up Next" list, active projects with progress, course tiles, recent notes and files.</li>
+<li><strong>Courses</strong> with code, instructor, room, ECTS credits, academic year and semester, color and symbol. Courses can be reordered and archived, and each has tabs for its assignments, projects, notes and files.</li>
+<li><strong>Studio projects</strong> with a design-phase track (brief → submitted), milestones (rename inline and change dates from a popover), a final review date, linked assignments, notes and files.</li>
+<li><strong>Assignments</strong> in a sortable, searchable table with an inspector: type, status, priority, due date and course or project.</li>
+<li><strong>Deadlines</strong> agenda that groups assignments, milestones and project reviews into Overdue, Today, Tomorrow, This Week, Next Week and Later.</li>
+<li><strong>Reminders</strong> as local notifications before an assignment is due.</li>
+<li><strong>Notes</strong> in Markdown with a preview, pinning, search and links to courses and projects. A new note left empty is removed automatically, and the Delete key deletes the selected note.</li>
+<li><strong>File references</strong> to drawings, PDFs, images and models on disk. Add them by drag and drop or the file picker. Thumbnails, Quick Look, Open and Show in Finder are supported, and missing files can be relinked with "Locate…".</li>
+<li><strong>Scale Converter</strong> tool: real ↔ drawing sizes at common architectural scales, the most detailed scale that fits an ISO A0–A4 sheet, and a quick-reference table.</li>
+<li>Due dates that refresh every minute, so "Tomorrow" becomes "Today" and late items turn red without reopening a screen.</li>
+<li>File ▸ New Window (⌥⇧⌘N) for a second window with its own navigation.</li>
+<li>New assignment, project, course and note sheets open with the cursor in the title field, so you can start typing right away.</li>
+<li><strong>Timetable</strong> of weekly lectures, exercises and studio sessions on a Monday–Friday grid. Clicking a class opens its course, each course lists its classes, and the dashboard shows today's (or the next day's) classes.</li>
+<li><strong>Grades</strong>: points for each kolokvijum, project and exam, what each grade from 6 to 10 still needs, the final grade, the average and ECTS earned, by semester. Each course has a Grades tab.</li>
+<li><strong>Calendar sync</strong> (Settings ▸ Calendar): an "Atelier" calendar with open deadlines and the weekly timetable until the end of teaching, which also appears on an iPhone through iCloud.</li>
+<li><strong>Serbian (Latin) translation</strong>, chosen in Settings ▸ General.</li>
+<li>Automatic updates with Sparkle, verified with EdDSA signatures.</li>
+<li>Free distribution: a signed DMG on GitHub Releases, a download page, and a one-line Terminal installer that checks the app's signing certificate.</li>
+<li><strong>Activation</strong>: Atelier opens only on Macs activated with a code issued for that Mac, delivered as a link or pasted. Settings shows the activation and this Mac's code.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.1.0/Atelier-0.1.0.dmg" type="application/octet-stream" sparkle:edSignature="3QVO1hUU0m0CLfTLzh2UaBrSIDH50OzH35jPVCYks5zOU/wEmVMB0O3Vh1Ci7tG8WxvEvXwhcUcdTb41szwTCg==" length="3337929"/>
+    </item>
   </channel>
 </rss>
