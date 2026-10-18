@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atelier for Mac</title>
+  <meta name="description" content="Atelier: a calm workspace for architecture students. Courses, projects, deadlines, notes and files in one native Mac app.">
+  <style>
+    :root {
+      --paper: #f6f0e6; --ink: #2a2520; --muted: #6f655a; --accent: #b8572f; --card: #fffaf2; --line: #e2d6c3; --code: #efe6d8;
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #1c1916; --ink: #f1e9dd; --muted: #ad9f8e; --accent: #e07a57; --card: #26221e; --line: #3a332c; --code: #322c26; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 32px 16px;
+      background: var(--paper); color: var(--ink);
+      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    main { max-width: 600px; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 40px 32px; box-shadow: 0 12px 40px rgba(0,0,0,.08); }
+    header { text-align: center; }
+    img { width: 128px; height: 128px; }
+    h1 { font-family: "New York", "Iowan Old Style", Georgia, serif; font-size: 40px; margin: 12px 0 4px; }
+    h2 { font-size: 17px; margin: 28px 0 8px; }
+    p, li { color: var(--muted); }
+    header p { margin: 0 0 24px; }
+    ol { padding-left: 22px; margin: 0; }
+    li { margin: 4px 0; }
+    strong { color: var(--ink); }
+    a.button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 14px 28px; border-radius: 12px; }
+    a.button:hover { filter: brightness(1.08); }
+    .command { display: flex; gap: 8px; align-items: stretch; margin: 8px 0; }
+    code { font: 13px/1.4 ui-monospace, "SF Mono", Menlo, monospace; background: var(--code); border-radius: 6px; padding: 2px 6px; color: var(--ink); }
+    .command code { flex: 1; padding: 10px 12px; overflow-x: auto; white-space: nowrap; }
+    .command button { border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 8px; padding: 0 14px; font: inherit; font-size: 14px; cursor: pointer; }
+    small { display: block; margin-top: 28px; color: var(--muted); text-align: center; }
+    small a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="icon.png" alt="">
+      <h1>Atelier</h1>
+      <p>A calm workspace for architecture students: courses, studio projects, deadlines, notes and files in one native Mac app.</p>
+      <a class="button" href="https://github.com/edi-edi/atelier-releases/releases/latest/download/Atelier.dmg">Download for Mac</a>
+    </header>
+
+    <h2>Installing</h2>
+    <p>Atelier is free and made by a family member, not a registered Apple developer, so macOS asks you to confirm it once.</p>
+    <ol>
+      <li>Open the downloaded <strong>Atelier.dmg</strong> and drag <strong>Atelier</strong> into <strong>Applications</strong>.</li>
+      <li>Open Atelier from Applications. When macOS says it can't verify the developer, click <strong>Done</strong>.</li>
+      <li>Open <strong>System Settings → Privacy &amp; Security</strong>, scroll down and click <strong>Open Anyway</strong> next to Atelier, then confirm.</li>
+    </ol>
+
+    <h2>Or install with one Terminal command</h2>
+    <p>This downloads the latest version, checks its signature and installs it, with no security prompts:</p>
+    <div class="command">
+      <code id="install">curl -fsSL https://edi-edi.github.io/atelier-releases/install.sh | bash</code>
+      <button type="button" onclick="navigator.clipboard.writeText(document.getElementById('install').textContent).then(() => { this.textContent = 'Copied'; })">Copy</button>
+    </div>
+
+    <h2>Activating</h2>
+    <p>Atelier only opens on Macs it has been activated for. The first time you open it, it shows a code for your Mac. Send that code to the person who gave you Atelier, then click the activation link you get back.</p>
+
+    <p>You only do all this once. After that, Atelier checks for updates by itself and installs them for you.</p>
+
+    <small>Requires macOS 15 or later · Free<br>
+      <a href="https://github.com/edi-edi/atelier-releases/releases">All versions and release notes</a></small>
+  </main>
+</body>
+</html>
