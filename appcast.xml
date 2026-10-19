@@ -6,6 +6,23 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.0</title>
+      <pubDate>Mon, 19 Oct 2026 00:30:14 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Atelier in Claude.</strong> Settings ▸ Claude ▸ Connect to Claude… adds Atelier to the Claude app for Mac as an extension, on your own Claude account with no key or extra subscription. Ask Claude “What's due this week?” or “How many points do I still need in geometry?”, or drop in a photo of the faculty timetable and ask it to add the classes. Claude can read your courses, timetable, deadlines, exams, grades and notes, and add classes (with the UB-AF courses you haven't added yet), assignments, exam periods, grades and notes. Claude asks before using a tool, each change is one step that Edit ▸ Undo takes back, and Atelier opens in the background when Claude needs it. It's off until you connect, and Settings ▸ Claude says plainly that what Atelier answers becomes part of your chat with Claude.</li>
+</ul>
+<ul>
+<li><strong>Paste Timetable.</strong> Edit ▸ Paste Timetable… (or the button in Timetable) adds a whole timetable from text, one class per line: “Pon 08:15–09:45 OA111 Amfiteatar”. Days can be Serbian or English, short or full, or a heading line above the classes; the course can be its code or name, and the kind can be added as “(P)”, “(V)” or “vežbe”. You review the classes before they're added, courses from the UB-AF programme you haven't added yet come along, classes already in the timetable are left out, and Edit ▸ Undo takes the whole paste back. Handy with a chat assistant: ask it to turn a photo of the faculty timetable into this format.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.8.0/Atelier-0.8.0.dmg" type="application/octet-stream" sparkle:edSignature="30XhLqFAw4hJi9FVwgeSJEdpCRpaCGTr4sQcW6szsc7vDUWgm4vyZoic3yUyiuKya08aB74FbLhCOt3Am1OxDg==" length="6226886"/>
+    </item>
+    <item>
       <title>Version 0.7.0</title>
       <pubDate>Sun, 18 Oct 2026 23:16:28 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
