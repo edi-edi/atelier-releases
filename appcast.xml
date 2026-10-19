@@ -6,6 +6,20 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.11.2</title>
+      <pubDate>Mon, 19 Oct 2026 21:56:43 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Changed</h4>
+<ul>
+<li>Atelier writes more about its background work to the system log (Calendar sync, Spotlight, folder scans, the Claude connection), to help diagnose problems. Names, titles and file paths are left out.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.11.2/Atelier-0.11.2.dmg" type="application/octet-stream" sparkle:edSignature="a1Tc+35pqYBoj5fX55eBvHjRowhC9eC6rv6e5iCWXGz7UPu5Mg4gKcuP+i9oC7xuDyrw6fyATc8wDjaYm26lCA==" length="6526811"/>
+    </item>
+    <item>
       <title>Version 0.11.1</title>
       <pubDate>Mon, 19 Oct 2026 21:22:56 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
