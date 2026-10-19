@@ -6,6 +6,24 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.10.0</title>
+      <pubDate>Mon, 19 Oct 2026 19:15:07 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li>A Getting Started checklist on the dashboard replaces the welcome card: add this semester's courses (they are listed right there from the UB-AF programme, already ticked, for the year of study you pick), add the timetable (pasted, or by Claude from a photo), add a deadline with Quick Add (⌃⌥A), link a project's Finder folder, keep backups in iCloud Drive and, if you like, connect Claude. Each step ticks itself off once it's done, the card goes away when they all are, and Hide puts it away sooner.</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li>Adding courses from the programme (Set Up Semester, or the checklist) is one step Edit ▸ Undo takes back, along with archiving the passed ones. Undo keeps a course you've already put something in.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.10.0/Atelier-0.10.0.dmg" type="application/octet-stream" sparkle:edSignature="UxGE46VQMKsVzclf0j2SNIN9VurBD5M+hjK5FPxB4pffwtWdQk7XSV4qkTXaW5VxaWwJHlDJNYgtOHyOsvTIDA==" length="6446196"/>
+    </item>
+    <item>
       <title>Version 0.9.1</title>
       <pubDate>Mon, 19 Oct 2026 19:09:04 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
