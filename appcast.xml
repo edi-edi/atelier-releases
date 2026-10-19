@@ -6,6 +6,20 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.11.0</title>
+      <pubDate>Mon, 19 Oct 2026 19:36:40 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li><strong>Back and Forward</strong>, as in Finder and Safari: arrows at the top of the window, Go ▸ Back (⌘[) and Forward (⌘]), and the back and forward buttons on a mouse retrace every place you went (sections, courses, tools and projects), not only the way out of a project. Places deleted since are skipped.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.11.0/Atelier-0.11.0.dmg" type="application/octet-stream" sparkle:edSignature="A1Hk7TgqeC215CJ15HQH7m7fEhsKP+CCZa6Fis2Lkcz3EP0wdgzPCbrp47fmJy9imYSIkIih9vqNSx/clmlfBw==" length="6481617"/>
+    </item>
+    <item>
       <title>Version 0.10.0</title>
       <pubDate>Mon, 19 Oct 2026 19:15:07 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
