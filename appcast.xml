@@ -6,6 +6,20 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.12.1</title>
+      <pubDate>Mon, 19 Oct 2026 23:52:37 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Changed</h4>
+<ul>
+<li>Claude sees which assignment, project or exam each deadline belongs to, and an assignment's status, so it can mark one done or move it without searching first.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.12.1/Atelier-0.12.1.dmg" type="application/octet-stream" sparkle:edSignature="3WEnT5aqcOWCzF/V6Bmi4C6FFOPrnd+qEXsGhvnO/ki0UHiJI3oYMJjF/JzGVQ9Nsri7Pd9jxB+INrSnOwaMBw==" length="6662539"/>
+    </item>
+    <item>
       <title>Version 0.12.0</title>
       <pubDate>Mon, 19 Oct 2026 23:21:48 +0000</pubDate>
       <sparkle:version>19</sparkle:version>
