@@ -6,6 +6,32 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Mon, 19 Oct 2026 18:10:46 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Changed</h4>
+<ul>
+<li>Atelier stays responsive while it reads the disk: linked folders are scanned, file tiles are checked, big folders are counted and backups are made in the background instead of holding up the window. Back Up Now stays dimmed while a backup runs.</li>
+<li>A backup folder or iPhone import folder that was moved or renamed is followed to its new place.</li>
+<li>Spotlight, Calendar and exam reminders catch up once after a burst of changes instead of after every single save, and two Spotlight updates can no longer run over each other.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>The Claude connection is sturdier: an oversized message closes the connection instead of filling memory, a program that isn't Atelier's helper gets one refusal and is disconnected, at most eight connections are served at once, a tool that hangs answers Claude with an error after two minutes, and a second copy of Atelier (one opened to finish a restore) no longer takes the connection from the first; it takes over once the first quits.</li>
+<li>Ticking a milestone, a project's review, an exam or an exam registration in Deadlines or on the dashboard is one step Edit ▸ Undo takes back, and Undo puts back exactly what was there: the project's phase, and which exams were already registered.</li>
+<li>Weeks start on Monday whatever region the Mac is set to, so on a Mac set to the US a Sunday deadline no longer jumps to “Next Week”, and the dashboard's week counts and teaching week stay right.</li>
+<li>When Atelier can't save, it says so instead of carrying on as if it had: Quick Add keeps the line and shows the error, Paste Timetable shows an alert, and Claude is told that nothing was changed. Other failed saves are written to the log (Console, category “store”).</li>
+<li>A linked folder that can't be read for a moment (an offline iCloud folder, a missing permission) no longer makes its files disappear from Atelier with their tags, status and links; Files says the folder can't be read and leaves them as they are. A folder with more than 5,000 files, or a subfolder that can't be read, no longer drops the files the scan didn't reach.</li>
+<li>After a folder scan removes files, or an empty note is discarded, Edit ▸ Undo no longer offers steps that would touch records that are gone.</li>
+<li>Claude can no longer crash Atelier by sending “nan”, “inf” or a huge number for a grade, a day or a limit; it gets an error to fix instead. Dates that don't exist (month 13, 30 February) and a deadline range that ends before it starts are refused rather than rolled over, and lowering an item's maximum below the points it already has asks for the points too.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.9.0/Atelier-0.9.0.dmg" type="application/octet-stream" sparkle:edSignature="c0vKkmwe3erwmHBndqk+Fik6FyOaWkBtWUIJdRGaHeHqh/xmbQCkz7xvp699Dek9dtVJWe7W4wjMAbzZr/+BCw==" length="6327803"/>
+    </item>
+    <item>
       <title>Version 0.8.0</title>
       <pubDate>Mon, 19 Oct 2026 00:30:14 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
