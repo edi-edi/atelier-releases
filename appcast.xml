@@ -6,6 +6,27 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.11.1</title>
+      <pubDate>Mon, 19 Oct 2026 21:22:56 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Changed</h4>
+<ul>
+<li>The dashboard no longer recomputes everything on every frame while the window is resized, the sidebar's clock rests while Atelier is in the background, and lists of open deadlines skip finished work up front.</li>
+<li>The Atelier calendar and Spotlight are only rewritten when something they show has changed. Typing a note, tagging a file or entering points no longer rewrites every calendar event (and syncs it through iCloud) a couple of seconds later.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>Fewer ways to crash when something is deleted while it's still in use: Undo after a deleted project, course or exam period; a folder scan that finishes after its folder was unlinked; an edit sheet or Get Info left open on a record a folder scan removed; a file tile checking a file deleted meanwhile; a project page left open in another window.</li>
+<li>Deleting a course, a project or an exam period makes a backup first, and nothing is deleted if that backup fails. The warning now says what goes with a course: its assignments, grades, exams and timetable classes, not only its assignments.</li>
+<li>A restore that can't put the backup in place leaves the data exactly as it was, instead of opening Atelier empty. The data replaced by the last three restores is kept (“Replaced by Restore”, “… 2”, “… 3”), so a second restore no longer deletes what the first one replaced. Restoring from the screen shown when Atelier can't open its data no longer promises a backup it can't make.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.11.1/Atelier-0.11.1.dmg" type="application/octet-stream" sparkle:edSignature="C+3h0mdCRiN4974LsASoMr5ckLviacHjIPZ8UTlEReOzMGX5Y4k1RdRxPuzGwACuxECyG8PjiWOGJGi6QuvLDg==" length="6519501"/>
+    </item>
+    <item>
       <title>Version 0.11.0</title>
       <pubDate>Mon, 19 Oct 2026 19:36:40 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
