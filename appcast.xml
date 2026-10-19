@@ -6,6 +6,24 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.1</title>
+      <pubDate>Mon, 19 Oct 2026 19:09:04 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Changed</h4>
+<ul>
+<li>Updates download and install on their own by default, the next time Atelier quits, instead of asking first. A choice already made in Settings ▸ Updates is kept.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>The menu bar menu drops today's classes once they have ended, instead of listing them until something else changes.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.9.1/Atelier-0.9.1.dmg" type="application/octet-stream" sparkle:edSignature="zZoD5T/EdpQllT8SAwLD8YC5HOYOj8o970fUZuPwfm/sHLKQKv9tUnVp+mNbldm0NfVdeOkd7jaUSqswt3IBDA==" length="6367128"/>
+    </item>
+    <item>
       <title>Version 0.9.0</title>
       <pubDate>Mon, 19 Oct 2026 18:10:46 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
