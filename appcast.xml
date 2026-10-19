@@ -6,6 +6,24 @@
     <description>Updates for Atelier</description>
     <language>en</language>
     <item>
+      <title>Version 0.12.0</title>
+      <pubDate>Mon, 19 Oct 2026 23:21:48 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h4>Added</h4>
+<ul>
+<li>Claude can now change what's already in Atelier, not only add to it: mark an assignment done (a repeating one gets its next occurrence) or move its due date, record an exam's registration or result (a passed exam goes into the course's grades), list projects and move one to its next phase or tick off a milestone, add to the end of a note, and remove a class from the timetable. When a title fits several things, Claude asks her which one. Each change is one step Edit ▸ Undo takes back.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>Each change Claude makes is its own step for Edit ▸ Undo, also while Atelier is in the background. Before, several changes in a row could be taken back all at once.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edi-edi/atelier-releases/releases/download/v0.12.0/Atelier-0.12.0.dmg" type="application/octet-stream" sparkle:edSignature="2E+EB0DXDgHzv3BePZoFQcFA3JP1zAQTIuipXcgS1Y/kIGw2aQ3mElskTgcGbuN8fp9Km4aejsJH/E39yvOODg==" length="6660783"/>
+    </item>
+    <item>
       <title>Version 0.11.2</title>
       <pubDate>Mon, 19 Oct 2026 21:56:43 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
